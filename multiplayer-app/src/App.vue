@@ -1,5 +1,9 @@
 <script setup lang="ts">
+import logger from '@/plugins/logger';
 import HelloWorld from './components/HelloWorld.vue'
+
+logger.info('Initializing Web Multiplayer App')
+
 </script>
 
 <template>
