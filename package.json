@@ -15,7 +15,8 @@
     "loglevel": "^1.9.1",
     "loglevel-plugin-prefix": "^0.8.4",
     "quasar": "^2.16.4",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@types/node": "^20.14.6",

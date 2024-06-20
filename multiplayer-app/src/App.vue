@@ -1,28 +1,14 @@
 <script setup lang="ts">
 import logger from '@/plugins/logger';
-import HelloWorld from './components/HelloWorld.vue'
 
 logger.info('Initializing Web Multiplayer App')
 
 </script>
 
 <template>
-  <q-layout view="hHh lpR fFf">
-    <q-header>
-      <q-toolbar>
-        <q-toolbar-title>
-          Quasar in Existing Vue Project
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-header>
-
-    <q-page-container>
-      <q-page>
-        <q-btn label="Hello Quasar" color="primary" />
-        <HelloWorld msg="Vite + Vue" />
-      </q-page>
-    </q-page-container>
-  </q-layout>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style scoped>
